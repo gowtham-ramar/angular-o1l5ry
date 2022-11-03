@@ -1,0 +1,30 @@
+
+
+<input [(ngModel)]="age" appOnlyNumber name="test">
+
+<input [(ngModel)]="amount" appTwoDigitDecimalNumber name="test1">
+<input [(ngModel)]="title" trimText name="test">
+
+{{age}}
+
+{{amount}}
+
+{{title}}{{title.length}}
+
+
+
+<div *ngFor="let x of data | searchFilter:filterCondition">
+    {{x | json}}
+
+</div>
+
+
+
+{{responseData |json}}
+
+
+<br>
+<br>
+<hr>
+<app-child></app-child>
+

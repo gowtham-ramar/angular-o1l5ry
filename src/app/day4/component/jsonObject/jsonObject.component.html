@@ -1,0 +1,22 @@
+<input [(ngModel)]="jsonObject.group_name" name="test" />
+Json object
+<pre>{{ jsonObject | json }}</pre>
+
+<hr />
+Json object with Ref
+<pre>{{ jsonObjectCopy | json }}</pre>
+
+<hr />
+Json object without Ref
+<pre>{{ jsonObjectCopyWithoutRef | json }}</pre>
+
+<hr />
+
+{{ model_details | json }}
+
+<!-- https://stackblitz.com/edit/template-driven-vs-reactive?file=src%2Fapp%2Fapp.component.ts -->
+
+<!-- https://www.interviewbit.com/angular-cheat-sheet/ -->
+<!-- https://hackr.io/blog/angular-cheat-sheet -->
+
+<!-- https://zerotomastery.io/cheatsheets/angular-cheat-sheet/ -->

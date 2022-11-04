@@ -11,7 +11,12 @@ import { TemplateComponent } from './day5/component/template/template.component'
 import { MustMatchDirective } from './day5/component/must-match.directive';
 
 @NgModule({
-  declarations: [AppComponent, ReactiveComponent, TemplateComponent,MustMatchDirective],
+  declarations: [
+    AppComponent,
+    ReactiveComponent,
+    TemplateComponent,
+    MustMatchDirective,
+  ],
   imports: [BrowserModule, FormsModule, Day2Module.forRoot(), AppRoutingModule],
   exports: [],
   providers: [],
